@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+    </head>
+    <style>
+        #calc {
+            width: 35%;
+        }
+        #calc button {
+            width: 25%;
+        }
+    </style>
+    <body>
+        <h1>Versi 2</h1>
+        
+        <div id="tema">
+            <a class="circle mint" onclick="white()"></a>
+            <a class="circle seasalt" onclick="seasalt();"></a>
+            <a class="circle goodnight" onclick="goodnight();"></a>
+            <a class="circle cucumber" onclick="cucumber();"></a>
+            <a class="circle rose" onclick="rose();"></a>
+        </div>
+
+        <br/>
+        
+        <div id="calc" class="">
+            <input type="text" id="layar1" disabled>
+            <input type="text" id="layar2" disabled>
+            <input type="text" id="layar3" disabled>
+            <div id="tombol">
+<!--
+                <button value=""  lang="latex"> x^2</button>
+                <button value="" lang="latex">x^3</button>
+                <button value="" lang="latex">e^x</button>
+-->
+                <button value="Math.random()">RANDOM NUMBER</button>
+                <button value="/100"><i class="fas fa-percent"></i></button>
+                <button id="ac" value="ac">AC</button>
+                <button value="hapus"><i class="fas fa-backspace"></i></button>
+                <br/>
+<!--
+                <button value="" lang="latex">\frac{1}{x}</button>
+                <button value="" lang="latex">\sqrt{x}</button>
+                <button value="" lang="latex">\sqrt[3]{x}</button>
+-->
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="+"><i class="fas fa-plus"></i></button>
+                <br/>
+<!--
+                <button value="" lang="latex">ln</button>
+                <button value="" lang="latex">\log[10]</button>
+                <button value="Math.E" lang="latex">e</button>
+-->
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-"><i class="fas fa-minus"></i></button>
+                <br/>
+<!--
+                <button value="" lang="latex">sin</button>
+                <button value="" lang="latex">cos</button>
+                <button value="" lang="latex">tan</button>
+-->
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="*"><i class="fas fa-times"></i></button>
+                <br/>
+<!--
+                <button value="" lang="latex">asin</button>
+                <button value="" lang="latex">acos</button>
+                <button value="" lang="latex">atan</button>
+-->
+                <button value="0">0</button>
+                <button value=".">.</button>
+                <button id="samadengan" value="" class="mint white-text"><i class="fas fa-equals"></i></button>
+                <button value="/"><i class="fas fa-divide"></i></button>
+            </div>
+        </div>
+    </body>
+    <script src="calc2.js"></script>
+</html>

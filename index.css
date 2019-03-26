@@ -1,0 +1,186 @@
+body {
+    font-family: 'roboto condensed';
+    margin: 0;
+    background: #faebd7;
+    overflow: hidden;
+    padding: 1%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#calc {
+    background: #ffffff;
+    display: block;
+    padding: 1%;
+    width: 50%;
+    margin:  0 auto;
+    border-radius: 10px;
+    font-size: 0;
+}
+
+input {
+    border: none;
+}
+
+input[type="text"] {
+    background: transparent;
+    width: 100%;
+    padding: 3%;
+}
+
+#layar1 {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    color: darkgray;
+}
+
+#layar2 {
+    width: 25%;
+    color: #78c7c7;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#layar3 {
+    width: 75%;
+    text-align: right;
+}
+
+#calc button {
+    display: inline-block;
+    color: #808080;
+    background: none;
+    width: 14.28%;
+    height: 4rem;
+    border: none;
+}
+
+#calc button:hover {
+    background: #78c7c7 !important;
+    color: #ffffff !important; 
+}
+
+#samadengan {
+    height: 3em !important;
+    border-radius: 12px;
+}
+
+button#samadengan:hover {
+    background: #fbbbb9 !important;
+    color: #ffffff !important;
+}
+
+/* TEMA */
+
+.white {
+    background: #ffffff !important;
+}
+
+.white-text {
+    color: #ffffff !important;
+}
+
+.darkgray {
+    background: darkgray !important;
+}
+
+.darkgray-text {
+    color: darkgray !important;
+}
+
+.darkdark {
+    background: #212121 !important;
+}
+
+.darkdark-text {
+    color: #212121 !important;
+}
+
+.black {
+    background: black !important;
+}
+
+.black-text {
+    color: black !important;
+}
+
+.mint {
+    background: #78c7c7 !important;
+}
+
+.mint-text {
+    color: #78c7c7 !important;
+}
+
+.mistyrose {
+    background: #fbbbb9 !important;
+}
+
+.mistyrose-text {
+    color: #fbbbb9 !important;
+}
+
+.rose {
+    background: #e799a3 !important;
+}
+
+.rose-text {
+    color: #e7a1b0 !important;
+}
+
+.sublime {
+    background: -webkit-linear-gradient(45deg, #FAACA8 0%, #DDD6F3 100%) !important;
+    background: linear-gradient(45deg, #FAACA8 0%, #DDD6F3 100%) !important;
+
+}
+
+.piggypink {
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7) !important;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7) !important;
+}
+
+.seasalt {
+     background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%) !important;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%) !important;
+}
+
+.cucumber {
+     background: -webkit-linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%) !important;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.goodnight {
+    background: darkslategrey !important;
+}
+
+#tema {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.outercircle {
+    width: 28px;
+    height: 29px;
+    border-radius: 50%;
+    position:absolute;
+    padding: 3px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border : 2px solid white;
+    display: inline-block;
+    padding: 1%;
+}
+
+.roundedsquare {
+    border-radius: 20px;
+    border: 5px solid white;
+}
