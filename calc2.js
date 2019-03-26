@@ -38,7 +38,7 @@ tombol.onclick = function(){
 samadengan.onclick = function(){
     hasil = eval(layar3.value);
     layar1.value = layar3.value + " =";
-    layar2.value = hasil.toFixed(3);
+    layar2.value = hasil.toFixed(2);
     layar3.value = "";
 }
 
@@ -65,7 +65,7 @@ function seasalt(){
     for (var i=0; i<buttons.length;i++){
         buttons[i].className = " white-text";
     }
-    samadengan.className = "white darkgray-text";
+    samadengan.className = "transparent white-text";
 }
 
 function goodnight(){
@@ -76,7 +76,7 @@ function goodnight(){
     for (var i=0; i<buttons.length;i++){
         buttons[i].className = " white-text";
     }
-    samadengan.className = "white darkgray-text";
+    samadengan.className = "transparent white-text";
 }
 
 function cucumber(){
@@ -87,7 +87,7 @@ function cucumber(){
     for (var i=0; i<buttons.length;i++){
         buttons[i].className = " darkdark-text";
     }
-    samadengan.className = "white darkgray-text";
+    samadengan.className = "transparent darkdark-text";
 }
 
 function rose(){
@@ -99,5 +99,5 @@ function rose(){
 //        buttons[i].innerHTML = "<span lang='latex'>\color{white} " + buttons[i].innerHTML;
         buttons[i].className = " white-text";
     }
-    samadengan.className = "white rose-text";
+    samadengan.className = "rose white-text";
 }
